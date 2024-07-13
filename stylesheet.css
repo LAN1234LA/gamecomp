@@ -1,0 +1,41 @@
+html {
+    font-family: sans-serif;
+    background-color: #cce2fc;
+}
+
+body {
+    padding-top: 50px;
+}
+nav ul {
+    list-style-type: none;
+    top: 0;
+    margin-right: 25px;
+    text-align: center;
+    justify-content:space-around;
+    display: flex;
+    gap: 5em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+header {
+    position: fixed;
+    padding-top: 2px;
+    background-color: #dfecfc;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+div.maininfo {
+    background-color: #a1c5ef;
+    border-radius: 20px;
+    padding: 10px;
+}
